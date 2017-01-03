@@ -63,6 +63,16 @@ array(
   )
 ),
 ```
+> How to getting value from a option field
+
+```php?start_inline=1
+$array = ( 'unique_group_2' ); 
+foreach ( $array as $result ) {
+  echo $result['unique_group_2_text_1'];
+  echo $result['unique_group_2_text_2'];
+  echo $result['unique_group_2_text_3'];
+}
+```
 
 | **Key**           | **Default** | **Description**
 | `id`              | unique      | an unique id - use nice name
